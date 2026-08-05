@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 381f471212fda0941b61cb262237b4c6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/Food/FoodManager.prefab
+  uploadId: 904590

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 72087a667df1abf4982f51e515be9cc5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/AudioManager.prefab
+  uploadId: 904590

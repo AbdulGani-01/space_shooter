@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 69ded95755fe5684fa1b6a279ee15088
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/UI/InGameUI/ScoreManagerUI.cs
+  uploadId: 904590

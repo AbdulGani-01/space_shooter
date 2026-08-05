@@ -1,0 +1,53 @@
+Welcome to the Grid Framework Pro template! This guide will walk you through exactly how to customize the visuals of your game, replace the default graphics with your own art, and understand how the snake's body and tail growth logic functions under the hood.
+
+Here is your complete guide to modifying the visuals based on the included scripts.
+
+1. How to Add Custom Graphics (Head and Body)
+The published version of this template uses a highly optimized, minimalist visual system. Instead of complex sprite-swapping dictionaries, each body part relies on a single Sprite and a Color tint.
+
+To replace the default graphics with your own custom art:
+
+Import Your Art: Drag your custom PNG files (e.g., a spaceship, a character, or textured blocks) into your Unity project. Ensure the Pixels Per Unit (PPU) matches your grid size.
+
+Assign the Sprites: Locate your Head and Body prefabs in the Project window. On the SnakeBodyPart component, drag your custom sprite into the sprite field.
+
+Adjust the Tint: If your custom art is already fully colored, set the tintColor field to Pure White (#FFFFFF). The GridManager uses this variable to color the tile, and pure white ensures your original art is rendered exactly as drawn.
+
+Note on Scaling: The GridManager automatically scales all rendered tiles (snake, food, and obstacles) to 0.3f via a Matrix4x4 transform to create clean gaps between grid cells.
+
+2. How the Tail Works (Growth Functionality)
+In this framework, the "tail" is dynamically managed by the list of body parts rather than a standalone prefab. Here is exactly how the system handles growth:
+
+The Setup: The SnakeManager tracks two main prefabs in the Inspector: the head and the snakeBody. It tracks the entire entity in a list called snakeBodyPartsList.
+
+The Growth Trigger: When the head collides with food, the Food_foodEaten event is triggered.
+
+Tracking the End: Before the snake moves, the Update loop caches the exact grid cell and direction of the very last segment in the list (lastBodyPartCell and lastBodyPartDirection).
+
+Adding the Tail Segment: Inside the Food_foodEaten method, the system instantiates a new snakeBody prefab. It places this new segment at the cached lastBodyPartCell and assigns it the lastBodyPartDirection.
+
+The Result: The new segment is added to the end of the snakeBodyPartsList. Because it is added to the end, it functionally becomes the new "tail" of the snake.
+
+3. Adding Directional Sprites and Curves
+Note: The core scripts provided in this package are designed for uniform, minimalist shapes (like squares or circles) that look identical regardless of direction. The SnakeBodyPart.cs script currently returns a single static sprite.
+
+If you are using custom top-down art (like a snake with eyes, or a vehicle) and need it to face different directions or curve around corners, you will need to slightly extend the SnakeBodyPart.cs script. Here is how you can implement that functionality:
+
+A. Track the Previous Direction
+To know if a body segment is curving, you need to know where it came from. You can add a previousDirection variable to SnakeBodyPart.cs and update it inside the SetDirection() method.
+
+B. Expose Sprite Variables
+Instead of a single [SerializeField] private Sprite sprite;, you can add fields for your different states:
+
+spriteUp, spriteDown, spriteLeft, spriteRight (for straight movement).
+
+curveTopRight, curveTopLeft, curveBottomRight, curveBottomLeft (for corners).
+
+C. Update the GetSprite() Logic
+Modify the existing GetSprite() method to return the correct graphic based on your movement.
+
+If direction == previousDirection, return the straight sprite that matches the current direction.
+
+If direction != previousDirection, return the specific corner sprite that bridges those two vectors.
+
+Because the GridManager calls bodyPart.GetSprite() every time it refreshes the grid, your updated logic will automatically render the correct directional or curved graphic instantly!

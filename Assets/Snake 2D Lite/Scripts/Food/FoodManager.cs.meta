@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2bb5ee094d863f14a841e52680fdbb63
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/Food/FoodManager.cs
+  uploadId: 904590

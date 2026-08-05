@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e77141dd8fa1af940b8fd2f932a855a4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/UI/InGameUI/GameResultUI.cs
+  uploadId: 904590

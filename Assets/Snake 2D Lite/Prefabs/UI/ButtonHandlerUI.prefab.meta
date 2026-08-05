@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 30a662f51e9f68d4a9ed4172998e56c0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/UI/ButtonHandlerUI.prefab
+  uploadId: 904590

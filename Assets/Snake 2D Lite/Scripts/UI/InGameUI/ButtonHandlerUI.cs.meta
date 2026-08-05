@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 346b506d0ca3f904e840cb2af5ca31e3
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/UI/InGameUI/ButtonHandlerUI.cs
+  uploadId: 904590

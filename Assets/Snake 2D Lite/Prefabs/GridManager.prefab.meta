@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec1ab2eea3131704686c4c64127cc959
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/GridManager.prefab
+  uploadId: 904590

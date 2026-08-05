@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cbe1326972b459742bf49dc59ac6387f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/Snake/SnakeBodyPart.cs
+  uploadId: 904590

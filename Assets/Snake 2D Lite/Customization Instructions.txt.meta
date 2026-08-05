@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb894bc7ca7ec504e89f8317f131bb5d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Customization Instructions.txt
+  uploadId: 904590

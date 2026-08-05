@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0fe87ac7222ebd4faa6bab85aa7acfb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/Snake/SnakeBodyPart.prefab
+  uploadId: 904590

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 345676469423ed341b20365962be47bb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/Snake/SnakeHead.prefab
+  uploadId: 904590

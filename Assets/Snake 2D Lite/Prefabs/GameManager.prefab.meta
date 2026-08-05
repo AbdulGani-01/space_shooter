@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9f26773f5cc1af340b83533529e0002a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/GameManager.prefab
+  uploadId: 904590

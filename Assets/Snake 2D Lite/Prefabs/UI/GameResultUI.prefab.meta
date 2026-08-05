@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d2d71eec1042c01419e0604fb0664406
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/UI/GameResultUI.prefab
+  uploadId: 904590

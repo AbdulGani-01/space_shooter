@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc6c2c4e44631e24b98235224419932f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Prefabs/Main Camera.prefab
+  uploadId: 904590

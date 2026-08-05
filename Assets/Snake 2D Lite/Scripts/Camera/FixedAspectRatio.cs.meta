@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e412a23e596c53a408fa6e5f2087e7af
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/Camera/FixedAspectRatio.cs
+  uploadId: 904590

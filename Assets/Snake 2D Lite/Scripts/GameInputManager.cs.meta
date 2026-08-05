@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bfd7bdb20ed22c34e997b1fc96e851da
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/GameInputManager.cs
+  uploadId: 904590

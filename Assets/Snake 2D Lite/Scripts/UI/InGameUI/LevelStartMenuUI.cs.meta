@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 56197b0614c312e40bea38d482e39c11
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370776
+  packageName: Snake 2D Lite
+  packageVersion: 1.0
+  assetPath: Assets/Snake 2D Lite/Scripts/UI/InGameUI/LevelStartMenuUI.cs
+  uploadId: 904590
