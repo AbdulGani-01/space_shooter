@@ -4,6 +4,8 @@ public class Enemy_Controller : MonoBehaviour
 {
     public float speed = 1f;
     private Rigidbody2D rb;
+    public GameObject Explosion;
+    public AudioClip Blast_Sound;
 
     private void Start()
     {
@@ -28,7 +30,12 @@ public class Enemy_Controller : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
+        {
+            AudioSource.PlayClipAtPoint(Blast_Sound, transform.position);
+            GameObject blast = Instantiate(Explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            Destroy(blast, 0.5f);
+        }
 
         if (collision.gameObject.CompareTag("Border"))
         {

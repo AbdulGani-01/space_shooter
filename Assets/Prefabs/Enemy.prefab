@@ -193,3 +193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Controller
   speed: 1
+  Explosion: {fileID: 3329375554584104931, guid: 0414baffe27ebf04780e3666ccd178db,
+    type: 3}
+  Blast_Sound: {fileID: 8300000, guid: 7ce9358a2ba9ea2498a49a9163f0758f, type: 3}

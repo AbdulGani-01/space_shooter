@@ -6,6 +6,7 @@ public class Player_controller : MonoBehaviour
     public float Speed = 1.0f;
     public GameObject Bullet;
     public float Bullet_speed = 1.0f;
+    public AudioClip Bullet_shoot;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,6 +32,7 @@ public class Player_controller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            AudioSource.PlayClipAtPoint(Bullet_shoot, transform.position);
             Instantiate(Bullet, transform.position, Quaternion.identity);
         }
     }
